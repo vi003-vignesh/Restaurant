@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Urban Foods</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="parallax">
+        <div class="content">
+            <h1 style="font-size: 38px; font-weight: 800;">Welcome to Our Restaurant</h1>
+            <p  style="font-size: 24px; font-weight: 600;">Delicious food, cozy atmosphere.</p>
+        </div>
+    </section>
+
+    <section id="menu" class="section">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <div class="menu-arrow menu-arrow-left">&#9664;</div>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="./images/image_bc1.jpg" alt="Dish 1">
+                    <h3>Butter Chicken</h3>
+                    <p>Tender pieces of chicken cooked with butter and traditional Indian spices.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./images/image_pt1.jpg" alt="Dish 2">
+                    <h3>Paneer Tikka</h3>
+                    <p>Marinated paneer cubes grilled to perfection, served with mint chutney</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./images/image_briyani1.jpg" alt="Dish 3">
+                    <h3>Biryani</h3>
+                    <p>Aromatic basmati rice cooked with spices,your choice of chicken, mutton, or vegetables.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/image_md1.jpg" alt="Dish 4">
+                    <h3>Masala Dosa</h3>
+                    <p>Crispy rice crepe filled with a spiced potato mixture, served with sambar and coconut chutney.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./images/image_samosa1.jpg" alt="Dish 5">
+                    <h3>Samosa</h3>
+                    <p>Deep-fried pastry filled with spiced potatoes and peas, served with tamarind chutney<p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/image_gj1.jpg" alt="Dish 6">
+                    <h3>Gulab Jamun</h3>
+                    <p>Soft, deep-fried dumplings soaked in a sweet saffron syrup.</p>
+                </div>
+            </div>
+            <div class="menu-arrow menu-arrow-right">&#9654;</div>
+        </div>
+    </section>
+
+    <section id="about" class="parallax">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>Welcome to our restaurant, where culinary excellence meets a cozy and inviting atmosphere. We are passionate about creating delectable dishes that tantalize your taste buds and provide an unforgettable dining experience.</p>
+            <p>Our team of experienced chefs uses only the freshest ingredients, sourced locally whenever possible, to craft a diverse menu that caters to all palates. Whether you're in the mood for a classic favorite or an adventurous new dish, we have something to delight every guest.</p>
+            <p>Since our opening in 2024, we have been dedicated to offering exceptional service and a warm, welcoming environment for our guests. We believe that dining is not just about the food but also about the experience, and we strive to make each visit memorable.</p>
+            <p>Join us for a meal, and let us take you on a culinary journey. We look forward to serving you!</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Restaurant. All rights reserved.</p>
+    </footer>
+
+    
+    <script src="scripts.js"></script>
+
+</body>
+</html>
